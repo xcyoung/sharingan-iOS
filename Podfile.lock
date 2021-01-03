@@ -1,0 +1,38 @@
+PODS:
+  - DoraemonKit/Core (3.0.6):
+    - FMDB
+    - GCDWebServer
+    - GCDWebServer/WebDAV
+    - GCDWebServer/WebUploader
+  - FMDB (2.7.5):
+    - FMDB/standard (= 2.7.5)
+  - FMDB/standard (2.7.5)
+  - GCDWebServer (3.5.4):
+    - GCDWebServer/Core (= 3.5.4)
+  - GCDWebServer/Core (3.5.4)
+  - GCDWebServer/WebDAV (3.5.4):
+    - GCDWebServer/Core
+  - GCDWebServer/WebUploader (3.5.4):
+    - GCDWebServer/Core
+  - RxSwift (6.0.0)
+
+DEPENDENCIES:
+  - DoraemonKit/Core (~> 3.0.4)
+  - RxSwift (= 6.0.0)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - DoraemonKit
+    - FMDB
+    - GCDWebServer
+    - RxSwift
+
+SPEC CHECKSUMS:
+  DoraemonKit: 919709427c30af94e265532a879ac41797d296d1
+  FMDB: 2ce00b547f966261cd18927a3ddb07cb6f3db82a
+  GCDWebServer: 2c156a56c8226e2d5c0c3f208a3621ccffbe3ce4
+  RxSwift: c14e798c59b9f6e9a2df8fd235602e85cc044295
+
+PODFILE CHECKSUM: 25cc16fe86ca6d2a8adac9ef6f005372e78f463e
+
+COCOAPODS: 1.5.3

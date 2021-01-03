@@ -1,0 +1,799 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		84A3700CEB32DF5B398FBF58 /* MetaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A3767765DD00B749BFA8F5 /* MetaViewController.swift */; };
+		84A3708D87A7F94B57A5E02A /* SharinganCaptureProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A37424BCF7D0BD3F22C6C5 /* SharinganCaptureProtocol.swift */; };
+		84A370C4FB4132E1D79D2BEF /* sharingan_iOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A37D948E161380AFC53620 /* sharingan_iOSTests.swift */; };
+		84A371DE2FC68C4850D7D48B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84A37AE685B062F0620FAF24 /* LaunchScreen.storyboard */; };
+		84A3721C8875D8CB6773830E /* BaseViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A37B65BA6C4CCE9AA90043 /* BaseViewModel.swift */; };
+		84A372FFA28FEEA8F7AF592F /* SharinganError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A372468A6A686ED794D03F /* SharinganError.swift */; };
+		84A37323ED9C34D1E09A6BD9 /* AlbumViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A37845C144A9CC0512B9BB /* AlbumViewController.swift */; };
+		84A373C4D39BF7E524AB68BA /* AlbumViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A37021C80D06CF880BC6A0 /* AlbumViewModel.swift */; };
+		84A373E51FD81A9BAEA17EB6 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A3761860810BA5D652FE35 /* Constants.swift */; };
+		84A373F6B4DD496465F050B6 /* Ext_UIApplication.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A37BFBEB4772A0083CA1BC /* Ext_UIApplication.swift */; };
+		84A37454E3CEE8A14871D774 /* sharingan_iOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A37ADCA9C7D777ACC3F512 /* sharingan_iOSUITests.swift */; };
+		84A375F6769C4243FD913244 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84A376C5D93E4BCE016F2E4F /* Assets.xcassets */; };
+		84A375FB76476582AAA5045E /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A37E800B991277ABB5A9B4 /* CameraViewController.swift */; };
+		84A3763444586D00A7554ECF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A37A1F4F32C17509ABE0C0 /* ViewController.swift */; };
+		84A37672170F7BE77E6FA629 /* SharinganMetaField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A371C7193F2251060F8B0F /* SharinganMetaField.swift */; };
+		84A379AFCA99703AA7F83E6B /* Ext_UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A376E54CD5C8679E00222D /* Ext_UIView.swift */; };
+		84A37B8E30C22EB766EDEA6C /* MetaViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A37E6B0F5FEBC4F177F16F /* MetaViewModel.swift */; };
+		84A37B9E5520C77B93410AC6 /* SharinganCaptureResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A37594D28CAF231A98BF8A /* SharinganCaptureResult.swift */; };
+		84A37DB994F5C5C33DD0D627 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84A37082F8C9EEFE16533307 /* Main.storyboard */; };
+		84A37DFEB8092B481AC324A4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A37638186DF8397BA98AEF /* AppDelegate.swift */; };
+		84A37E533B72271688C6ACFC /* LiveData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A3735CF1860E2C5A63693D /* LiveData.swift */; };
+		84A37EA3285CD917FB3822F2 /* SharinganCaptureCompat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A37DE2F997AEB2AB8E371E /* SharinganCaptureCompat.swift */; };
+		84A37F4E085510E8FC362711 /* SharinganCaptureMangekyoImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A3751CF1CD2BCC42EC05B9 /* SharinganCaptureMangekyoImpl.swift */; };
+		B420E516C433D3DA3292A29D /* Pods_sharingan_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 619464362B7FC692FEEB97E7 /* Pods_sharingan_iOS.framework */; };
+		C0416663883F0A499D19CC1E /* Pods_sharingan_iOSUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 58103A06A7331E8FE39B15C8 /* Pods_sharingan_iOSUITests.framework */; };
+		F1915399A336372C002BBA6B /* Pods_sharingan_iOSTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7E19CBED7253A1D75AB4209 /* Pods_sharingan_iOSTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		84A3755755C6FD90C820A3F9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84A371E5876B36B94DD0AC40 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 84A37C128D408E952520B8F5;
+			remoteInfo = "sharingan-iOS";
+		};
+		84A37CBA2AC2CDFE7DCA39E2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84A371E5876B36B94DD0AC40 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 84A37C128D408E952520B8F5;
+			remoteInfo = "sharingan-iOS";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		043AB512560DD4587D621CF9 /* Pods-sharingan-iOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sharingan-iOSTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-sharingan-iOSTests/Pods-sharingan-iOSTests.debug.xcconfig"; sourceTree = "<group>"; };
+		1095CE7CE329DBBC4B07AAC2 /* Pods-sharingan-iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sharingan-iOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-sharingan-iOS/Pods-sharingan-iOS.release.xcconfig"; sourceTree = "<group>"; };
+		4D1859A61BC2F9462CD32145 /* Pods-sharingan-iOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sharingan-iOSTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-sharingan-iOSTests/Pods-sharingan-iOSTests.release.xcconfig"; sourceTree = "<group>"; };
+		58103A06A7331E8FE39B15C8 /* Pods_sharingan_iOSUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_sharingan_iOSUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		619464362B7FC692FEEB97E7 /* Pods_sharingan_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_sharingan_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		84A37021C80D06CF880BC6A0 /* AlbumViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlbumViewModel.swift; sourceTree = "<group>"; };
+		84A37066BD6DF334531E6ED8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		84A371C7193F2251060F8B0F /* SharinganMetaField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SharinganMetaField.swift; sourceTree = "<group>"; };
+		84A372468A6A686ED794D03F /* SharinganError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SharinganError.swift; sourceTree = "<group>"; };
+		84A372D95A14595D6C97FC77 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
+		84A3735CF1860E2C5A63693D /* LiveData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LiveData.swift; sourceTree = "<group>"; };
+		84A37424BCF7D0BD3F22C6C5 /* SharinganCaptureProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SharinganCaptureProtocol.swift; sourceTree = "<group>"; };
+		84A3751CF1CD2BCC42EC05B9 /* SharinganCaptureMangekyoImpl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SharinganCaptureMangekyoImpl.swift; sourceTree = "<group>"; };
+		84A37594D28CAF231A98BF8A /* SharinganCaptureResult.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SharinganCaptureResult.swift; sourceTree = "<group>"; };
+		84A375AFB95ADC54BD399FDF /* sharingan-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "sharingan-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		84A3761860810BA5D652FE35 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		84A37638186DF8397BA98AEF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		84A3767765DD00B749BFA8F5 /* MetaViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MetaViewController.swift; sourceTree = "<group>"; };
+		84A3768C4F93385CD4333BF4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
+		84A376C5D93E4BCE016F2E4F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		84A376E54CD5C8679E00222D /* Ext_UIView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Ext_UIView.swift; sourceTree = "<group>"; };
+		84A37845C144A9CC0512B9BB /* AlbumViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlbumViewController.swift; sourceTree = "<group>"; };
+		84A378841446BC9F652FD2E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
+		84A37A1A09F0063C288D8B3A /* sharingan-iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "sharingan-iOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		84A37A1F4F32C17509ABE0C0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		84A37ADCA9C7D777ACC3F512 /* sharingan_iOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sharingan_iOSUITests.swift; sourceTree = "<group>"; };
+		84A37B22AD24C13411BE7AFE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		84A37B65BA6C4CCE9AA90043 /* BaseViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewModel.swift; sourceTree = "<group>"; };
+		84A37BFBEB4772A0083CA1BC /* Ext_UIApplication.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Ext_UIApplication.swift; sourceTree = "<group>"; };
+		84A37D15D8725C0CA149AFD6 /* sharingan-iOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "sharingan-iOSUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		84A37D948E161380AFC53620 /* sharingan_iOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sharingan_iOSTests.swift; sourceTree = "<group>"; };
+		84A37DE2F997AEB2AB8E371E /* SharinganCaptureCompat.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SharinganCaptureCompat.swift; sourceTree = "<group>"; };
+		84A37E6B0F5FEBC4F177F16F /* MetaViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MetaViewModel.swift; sourceTree = "<group>"; };
+		84A37E800B991277ABB5A9B4 /* CameraViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
+		8B886CBBA015C80F1BA235E6 /* Pods-sharingan-iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sharingan-iOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-sharingan-iOS/Pods-sharingan-iOS.debug.xcconfig"; sourceTree = "<group>"; };
+		B40CEF5C9833989B2683901A /* Pods-sharingan-iOSUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sharingan-iOSUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-sharingan-iOSUITests/Pods-sharingan-iOSUITests.release.xcconfig"; sourceTree = "<group>"; };
+		C3845917B1333C4F363526E2 /* Pods-sharingan-iOSUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sharingan-iOSUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-sharingan-iOSUITests/Pods-sharingan-iOSUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		C7E19CBED7253A1D75AB4209 /* Pods_sharingan_iOSTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_sharingan_iOSTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		84A37872E5BCE826ABB73BFB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B420E516C433D3DA3292A29D /* Pods_sharingan_iOS.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84A37A98F67AA1D5DE4D6153 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1915399A336372C002BBA6B /* Pods_sharingan_iOSTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84A37C81F1E37E8546172AB4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0416663883F0A499D19CC1E /* Pods_sharingan_iOSUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1EDBE361C641A7A5F0366D90 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8B886CBBA015C80F1BA235E6 /* Pods-sharingan-iOS.debug.xcconfig */,
+				1095CE7CE329DBBC4B07AAC2 /* Pods-sharingan-iOS.release.xcconfig */,
+				043AB512560DD4587D621CF9 /* Pods-sharingan-iOSTests.debug.xcconfig */,
+				4D1859A61BC2F9462CD32145 /* Pods-sharingan-iOSTests.release.xcconfig */,
+				C3845917B1333C4F363526E2 /* Pods-sharingan-iOSUITests.debug.xcconfig */,
+				B40CEF5C9833989B2683901A /* Pods-sharingan-iOSUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		84A3724675F8EBA0972D0277 /* sharingan-iOSUITests */ = {
+			isa = PBXGroup;
+			children = (
+				84A372D95A14595D6C97FC77 /* Info.plist */,
+				84A37ADCA9C7D777ACC3F512 /* sharingan_iOSUITests.swift */,
+			);
+			path = "sharingan-iOSUITests";
+			sourceTree = "<group>";
+		};
+		84A3728F7DB2419D0720A494 /* extension */ = {
+			isa = PBXGroup;
+			children = (
+				84A376E54CD5C8679E00222D /* Ext_UIView.swift */,
+				84A37BFBEB4772A0083CA1BC /* Ext_UIApplication.swift */,
+			);
+			path = extension;
+			sourceTree = "<group>";
+		};
+		84A37357908E87A0B0A5E8F7 /* mvvm */ = {
+			isa = PBXGroup;
+			children = (
+				84A37B65BA6C4CCE9AA90043 /* BaseViewModel.swift */,
+				84A3735CF1860E2C5A63693D /* LiveData.swift */,
+			);
+			path = mvvm;
+			sourceTree = "<group>";
+		};
+		84A37370E426A2AF3A1D1A33 /* camera */ = {
+			isa = PBXGroup;
+			children = (
+				84A37424BCF7D0BD3F22C6C5 /* SharinganCaptureProtocol.swift */,
+				84A3751CF1CD2BCC42EC05B9 /* SharinganCaptureMangekyoImpl.swift */,
+				84A37DE2F997AEB2AB8E371E /* SharinganCaptureCompat.swift */,
+				84A37594D28CAF231A98BF8A /* SharinganCaptureResult.swift */,
+			);
+			path = camera;
+			sourceTree = "<group>";
+		};
+		84A375B3BF486B0AFE978698 /* sharingan-iOS */ = {
+			isa = PBXGroup;
+			children = (
+				84A378841446BC9F652FD2E9 /* Info.plist */,
+				84A376C5D93E4BCE016F2E4F /* Assets.xcassets */,
+				84A37638186DF8397BA98AEF /* AppDelegate.swift */,
+				84A37AE685B062F0620FAF24 /* LaunchScreen.storyboard */,
+				84A37A1F4F32C17509ABE0C0 /* ViewController.swift */,
+				84A37082F8C9EEFE16533307 /* Main.storyboard */,
+				84A37370E426A2AF3A1D1A33 /* camera */,
+				84A372468A6A686ED794D03F /* SharinganError.swift */,
+				84A37E800B991277ABB5A9B4 /* CameraViewController.swift */,
+				84A37B694299554DBE9FB558 /* common */,
+				84A37845C144A9CC0512B9BB /* AlbumViewController.swift */,
+				84A3761860810BA5D652FE35 /* Constants.swift */,
+				84A37ED59AC4A8F3BBE114C4 /* meta */,
+				84A37021C80D06CF880BC6A0 /* AlbumViewModel.swift */,
+			);
+			path = "sharingan-iOS";
+			sourceTree = "<group>";
+		};
+		84A3772A429831D4D2C21C1D = {
+			isa = PBXGroup;
+			children = (
+				84A379DFBAAAC0484155DB74 /* Products */,
+				84A375B3BF486B0AFE978698 /* sharingan-iOS */,
+				84A37AE28D20634757744F12 /* sharingan-iOSTests */,
+				84A3724675F8EBA0972D0277 /* sharingan-iOSUITests */,
+				1EDBE361C641A7A5F0366D90 /* Pods */,
+				EF16785E76C3AA1858D1C7C3 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		84A379DFBAAAC0484155DB74 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				84A375AFB95ADC54BD399FDF /* sharingan-iOS.app */,
+				84A37A1A09F0063C288D8B3A /* sharingan-iOSTests.xctest */,
+				84A37D15D8725C0CA149AFD6 /* sharingan-iOSUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		84A37AE28D20634757744F12 /* sharingan-iOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				84A3768C4F93385CD4333BF4 /* Info.plist */,
+				84A37D948E161380AFC53620 /* sharingan_iOSTests.swift */,
+			);
+			path = "sharingan-iOSTests";
+			sourceTree = "<group>";
+		};
+		84A37B694299554DBE9FB558 /* common */ = {
+			isa = PBXGroup;
+			children = (
+				84A3728F7DB2419D0720A494 /* extension */,
+				84A37357908E87A0B0A5E8F7 /* mvvm */,
+			);
+			path = common;
+			sourceTree = "<group>";
+		};
+		84A37ED59AC4A8F3BBE114C4 /* meta */ = {
+			isa = PBXGroup;
+			children = (
+				84A371C7193F2251060F8B0F /* SharinganMetaField.swift */,
+				84A3767765DD00B749BFA8F5 /* MetaViewController.swift */,
+				84A37E6B0F5FEBC4F177F16F /* MetaViewModel.swift */,
+			);
+			path = meta;
+			sourceTree = "<group>";
+		};
+		EF16785E76C3AA1858D1C7C3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				619464362B7FC692FEEB97E7 /* Pods_sharingan_iOS.framework */,
+				C7E19CBED7253A1D75AB4209 /* Pods_sharingan_iOSTests.framework */,
+				58103A06A7331E8FE39B15C8 /* Pods_sharingan_iOSUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		84A37522E84222721C3A00F7 /* sharingan-iOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84A373327DB33F36E90119DD /* Build configuration list for PBXNativeTarget "sharingan-iOSTests" */;
+			buildPhases = (
+				60B60867A09D4A9F4216F951 /* [CP] Check Pods Manifest.lock */,
+				84A37C26ACAA7AF72124479E /* Sources */,
+				84A37A98F67AA1D5DE4D6153 /* Frameworks */,
+				84A3764DB8D337E563D96B9D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				84A37ECC58518445B03994B4 /* PBXTargetDependency */,
+			);
+			name = "sharingan-iOSTests";
+			productName = "sharingan-iOSTests";
+			productReference = 84A37A1A09F0063C288D8B3A /* sharingan-iOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		84A37C128D408E952520B8F5 /* sharingan-iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84A374B3CB65B7ADCEE576AF /* Build configuration list for PBXNativeTarget "sharingan-iOS" */;
+			buildPhases = (
+				B69793AC3210BD4459F7AD79 /* [CP] Check Pods Manifest.lock */,
+				84A37CEA899F8D5072618B69 /* Sources */,
+				84A37872E5BCE826ABB73BFB /* Frameworks */,
+				84A3734E98681ADB29D089DD /* Resources */,
+				DCF5779BA60092E1E12E316A /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "sharingan-iOS";
+			productName = "sharingan-iOS";
+			productReference = 84A375AFB95ADC54BD399FDF /* sharingan-iOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		84A37C3E6D8FEC74B4806304 /* sharingan-iOSUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84A373791EC8ED88AE5A1A29 /* Build configuration list for PBXNativeTarget "sharingan-iOSUITests" */;
+			buildPhases = (
+				CEFB701A21E3233EEC407510 /* [CP] Check Pods Manifest.lock */,
+				84A376E9DA78AEF66AEAC1F3 /* Sources */,
+				84A37C81F1E37E8546172AB4 /* Frameworks */,
+				84A3759A4984690B4DF5E702 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				84A37A001E137E14A1DB4A50 /* PBXTargetDependency */,
+			);
+			name = "sharingan-iOSUITests";
+			productName = "sharingan-iOSUITests";
+			productReference = 84A37D15D8725C0CA149AFD6 /* sharingan-iOSUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		84A371E5876B36B94DD0AC40 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				TargetAttributes = {
+					84A37C128D408E952520B8F5 = {
+						DevelopmentTeam = 8NM2C7228N;
+					};
+				};
+			};
+			buildConfigurationList = 84A37E6AF28A219BDB16CA91 /* Build configuration list for PBXProject "sharingan-iOS" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				English,
+				en,
+				Base,
+			);
+			mainGroup = 84A3772A429831D4D2C21C1D;
+			productRefGroup = 84A379DFBAAAC0484155DB74 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				84A37C128D408E952520B8F5 /* sharingan-iOS */,
+				84A37522E84222721C3A00F7 /* sharingan-iOSTests */,
+				84A37C3E6D8FEC74B4806304 /* sharingan-iOSUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		84A3734E98681ADB29D089DD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84A375F6769C4243FD913244 /* Assets.xcassets in Resources */,
+				84A371DE2FC68C4850D7D48B /* LaunchScreen.storyboard in Resources */,
+				84A37DB994F5C5C33DD0D627 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84A3759A4984690B4DF5E702 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84A3764DB8D337E563D96B9D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		60B60867A09D4A9F4216F951 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-sharingan-iOSTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B69793AC3210BD4459F7AD79 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-sharingan-iOS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CEFB701A21E3233EEC407510 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-sharingan-iOSUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DCF5779BA60092E1E12E316A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-sharingan-iOS/Pods-sharingan-iOS-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/DoraemonKit/DoraemonKit.framework",
+				"${BUILT_PRODUCTS_DIR}/FMDB/FMDB.framework",
+				"${BUILT_PRODUCTS_DIR}/GCDWebServer/GCDWebServer.framework",
+				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DoraemonKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FMDB.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GCDWebServer.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-sharingan-iOS/Pods-sharingan-iOS-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		84A376E9DA78AEF66AEAC1F3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84A37454E3CEE8A14871D774 /* sharingan_iOSUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84A37C26ACAA7AF72124479E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84A370C4FB4132E1D79D2BEF /* sharingan_iOSTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84A37CEA899F8D5072618B69 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84A37DFEB8092B481AC324A4 /* AppDelegate.swift in Sources */,
+				84A3763444586D00A7554ECF /* ViewController.swift in Sources */,
+				84A3708D87A7F94B57A5E02A /* SharinganCaptureProtocol.swift in Sources */,
+				84A37F4E085510E8FC362711 /* SharinganCaptureMangekyoImpl.swift in Sources */,
+				84A37EA3285CD917FB3822F2 /* SharinganCaptureCompat.swift in Sources */,
+				84A37B9E5520C77B93410AC6 /* SharinganCaptureResult.swift in Sources */,
+				84A372FFA28FEEA8F7AF592F /* SharinganError.swift in Sources */,
+				84A375FB76476582AAA5045E /* CameraViewController.swift in Sources */,
+				84A379AFCA99703AA7F83E6B /* Ext_UIView.swift in Sources */,
+				84A373F6B4DD496465F050B6 /* Ext_UIApplication.swift in Sources */,
+				84A37323ED9C34D1E09A6BD9 /* AlbumViewController.swift in Sources */,
+				84A373E51FD81A9BAEA17EB6 /* Constants.swift in Sources */,
+				84A37672170F7BE77E6FA629 /* SharinganMetaField.swift in Sources */,
+				84A3700CEB32DF5B398FBF58 /* MetaViewController.swift in Sources */,
+				84A3721C8875D8CB6773830E /* BaseViewModel.swift in Sources */,
+				84A37E533B72271688C6ACFC /* LiveData.swift in Sources */,
+				84A37B8E30C22EB766EDEA6C /* MetaViewModel.swift in Sources */,
+				84A373C4D39BF7E524AB68BA /* AlbumViewModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		84A37A001E137E14A1DB4A50 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 84A37C128D408E952520B8F5 /* sharingan-iOS */;
+			targetProxy = 84A3755755C6FD90C820A3F9 /* PBXContainerItemProxy */;
+		};
+		84A37ECC58518445B03994B4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 84A37C128D408E952520B8F5 /* sharingan-iOS */;
+			targetProxy = 84A37CBA2AC2CDFE7DCA39E2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		84A37082F8C9EEFE16533307 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84A37B22AD24C13411BE7AFE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		84A37AE685B062F0620FAF24 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84A37066BD6DF334531E6ED8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		84A37179CB75C749BBA38090 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4D1859A61BC2F9462CD32145 /* Pods-sharingan-iOSTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/sharingan-iOS.app/sharingan-iOS";
+				INFOPLIST_FILE = "sharingan-iOSTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "me.xcyoung.sharingan-iOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Release;
+		};
+		84A374E075E5EBD7E609980F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B40CEF5C9833989B2683901A /* Pods-sharingan-iOSUITests.release.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = "sharingan-iOSUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "me.xcyoung.sharingan-iOSUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "sharingan-iOS";
+			};
+			name = Release;
+		};
+		84A375B645E7003FF2444BA1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8B886CBBA015C80F1BA235E6 /* Pods-sharingan-iOS.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				DEVELOPMENT_TEAM = 8NM2C7228N;
+				INFOPLIST_FILE = "sharingan-iOS/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "me.xcyoung.sharingan-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		84A3772EEB8594120F0381A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		84A37AC0FFE91A1BCA7E4478 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		84A37DAB38F6E9B96503D129 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1095CE7CE329DBBC4B07AAC2 /* Pods-sharingan-iOS.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				DEVELOPMENT_TEAM = 8NM2C7228N;
+				INFOPLIST_FILE = "sharingan-iOS/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "me.xcyoung.sharingan-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		84A37E9649BE52B3A073729F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C3845917B1333C4F363526E2 /* Pods-sharingan-iOSUITests.debug.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = "sharingan-iOSUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "me.xcyoung.sharingan-iOSUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "sharingan-iOS";
+			};
+			name = Debug;
+		};
+		84A37EFB759C821552873505 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 043AB512560DD4587D621CF9 /* Pods-sharingan-iOSTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/sharingan-iOS.app/sharingan-iOS";
+				INFOPLIST_FILE = "sharingan-iOSTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "me.xcyoung.sharingan-iOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		84A373327DB33F36E90119DD /* Build configuration list for PBXNativeTarget "sharingan-iOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84A37EFB759C821552873505 /* Debug */,
+				84A37179CB75C749BBA38090 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84A373791EC8ED88AE5A1A29 /* Build configuration list for PBXNativeTarget "sharingan-iOSUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84A37E9649BE52B3A073729F /* Debug */,
+				84A374E075E5EBD7E609980F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84A374B3CB65B7ADCEE576AF /* Build configuration list for PBXNativeTarget "sharingan-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84A375B645E7003FF2444BA1 /* Debug */,
+				84A37DAB38F6E9B96503D129 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84A37E6AF28A219BDB16CA91 /* Build configuration list for PBXProject "sharingan-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84A3772EEB8594120F0381A5 /* Debug */,
+				84A37AC0FFE91A1BCA7E4478 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 84A371E5876B36B94DD0AC40 /* Project object */;
+}

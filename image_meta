@@ -1,0 +1,314 @@
+(lldb) po cfProps
+▿ Optional<Dictionary<AnyHashable, Any>>
+  ▿ some : 11 elements
+    ▿ 0 : 2 elements
+      ▿ key : AnyHashable("PixelHeight")
+        - value : "PixelHeight"
+      - value : 1080
+    ▿ 1 : 2 elements
+      ▿ key : AnyHashable("DPIWidth")
+        - value : "DPIWidth"
+      - value : 72
+    ▿ 2 : 2 elements
+      ▿ key : AnyHashable("Orientation")
+        - value : "Orientation"
+      - value : 6
+    ▿ 3 : 2 elements
+      ▿ key : AnyHashable("{MakerApple}")
+        - value : "{MakerApple}"
+      ▿ value : 34 elements
+        ▿ 0 : 2 elements
+          - key : 3
+          ▿ value : 4 elements
+            ▿ 0 : 2 elements
+              - key : flags
+              - value : 1
+            ▿ 1 : 2 elements
+              - key : value
+              - value : 313889776473708
+            ▿ 2 : 2 elements
+              - key : timescale
+              - value : 1000000000
+            ▿ 3 : 2 elements
+              - key : epoch
+              - value : 0
+        ▿ 1 : 2 elements
+          - key : 12
+          ▿ value : 2 elements
+            - 0 : 0.234375
+            - 1 : 0.4570312
+        ▿ 2 : 2 elements
+          - key : 4
+          - value : 1
+        ▿ 3 : 2 elements
+          - key : 13
+          - value : 0
+        ▿ 4 : 2 elements
+          - key : 5
+          - value : 90
+        ▿ 5 : 2 elements
+          - key : 6
+          - value : 98
+        ▿ 6 : 2 elements
+          - key : 31
+          - value : 0
+        ▿ 7 : 2 elements
+          - key : 14
+          - value : 0
+        ▿ 8 : 2 elements
+          - key : 7
+          - value : 1
+        ▿ 9 : 2 elements
+          - key : 23
+          - value : 0
+        ▿ 10 : 2 elements
+          - key : 32
+          - value : DB869FE6-DFDD-4264-A46E-C220DC64AF26
+        ▿ 11 : 2 elements
+          - key : 15
+          - value : 3
+        ▿ 12 : 2 elements
+          - key : 8
+          ▿ value : 3 elements
+            - 0 : 0.1009031
+            - 1 : -0.9159103
+            - 2 : -0.3771376
+        ▿ 13 : 2 elements
+          - key : 16
+          - value : 1
+        ▿ 14 : 2 elements
+          - key : 25
+          - value : 0
+        ▿ 15 : 2 elements
+          - key : 51
+          - value : 0
+        ▿ 16 : 2 elements
+          - key : 60
+          - value : 4
+        ▿ 17 : 2 elements
+          - key : 43
+          - value : 956AF51B-A7BE-477F-901A-825BA91C2A9F
+        ▿ 18 : 2 elements
+          - key : 52
+          - value : 1
+        ▿ 19 : 2 elements
+          - key : 35
+          ▿ value : 2 elements
+            - 0 : 28
+            - 1 : 268435511
+        ▿ 20 : 2 elements
+          - key : 53
+          - value : 0
+        ▿ 21 : 2 elements
+          - key : 45
+          - value : 4853
+        ▿ 22 : 2 elements
+          - key : 54
+          - value : 13
+        ▿ 23 : 2 elements
+          - key : 37
+          - value : 40104
+        ▿ 24 : 2 elements
+          - key : 46
+          - value : 1
+        ▿ 25 : 2 elements
+          - key : 55
+          - value : 4
+        ▿ 26 : 2 elements
+          - key : 38
+          - value : 1
+        ▿ 27 : 2 elements
+          - key : 47
+          - value : 91
+        ▿ 28 : 2 elements
+          - key : 39
+          - value : 9.763987
+        ▿ 29 : 2 elements
+          - key : 58
+          - value : 0
+        ▿ 30 : 2 elements
+          - key : 59
+          - value : 0
+        ▿ 31 : 2 elements
+          - key : 1
+          - value : 12
+        ▿ 32 : 2 elements
+          - key : 2
+          - value : <79005100 47004200 3e003f00 33005d00 48002900 29003f00 46005400 78003801 20014101 2f010e01 e400bb00 8d005f00 38002c00 2f002e00 3e004800 7300a800 37014901 44012f01 1001eb00 ad004f00 34002f00 2c002b00 3e003c00 72009200 29012f01 2d011a01 fb00d600 94004000 30002b00 22003400 49002e00 6d008e00 18011701 10010301 e500c500 7b003800 2e002600 22003400 50002400 5e008b00 06010001 f700ec00 d100b000 61003e00 2a002300 1e003100 3b002500 4b008a00 f500ee00 e300d600 be009800 46003700 26001f00 1e003100 21003a00 3c008b00 e900de00 d100c300 aa007400 38003500 23002100 1e003300 1b003f00 29008800 dc00d100 c000b300 8d004e00 2a002d00 20002400 21003300 17004400 24007900 d100c500 b2009300 8400a300 5c003200 1e002100 36001c00 16004500 1e006b00 c500b800 a3008300 c600de00 70002700 20001a00 2e001b00 16004100 31009100 b800a800 91007000 ac00d600 79002f00 20001700 2c001700 16005500 7e00b000 a8009500 7d006300 8f00ce00 81002c00 2b002f00 15001800 1a005100 8e00b400 98008200 67004f00 8600c700 89002500 2f001900 a9002d00 1d002500 a4008600 6f006900 6c005a00 7900c300 8d001f00 2e001b00 72002f00 20001800 97005b00 7f005d00 45005100 64005400 17003500 34002600 20001d00 25001b00 69004200>
+        ▿ 33 : 2 elements
+          - key : 20
+          - value : 1
+    ▿ 4 : 2 elements
+      ▿ key : AnyHashable("{TIFF}")
+        - value : "{TIFF}"
+      ▿ value : 8 elements
+        ▿ 0 : 2 elements
+          - key : ResolutionUnit
+          - value : 2
+        ▿ 1 : 2 elements
+          - key : Software
+          - value : 14.1
+        ▿ 2 : 2 elements
+          - key : DateTime
+          - value : 2021:01:03 11:30:55
+        ▿ 3 : 2 elements
+          - key : XResolution
+          - value : 72
+        ▿ 4 : 2 elements
+          - key : Orientation
+          - value : 6
+        ▿ 5 : 2 elements
+          - key : Model
+          - value : iPhone 11
+        ▿ 6 : 2 elements
+          - key : YResolution
+          - value : 72
+        ▿ 7 : 2 elements
+          - key : Make
+          - value : Apple
+    ▿ 5 : 2 elements
+      ▿ key : AnyHashable("DPIHeight")
+        - value : "DPIHeight"
+      - value : 72
+    ▿ 6 : 2 elements
+      ▿ key : AnyHashable("{Exif}")
+        - value : "{Exif}"
+      ▿ value : 34 elements
+        ▿ 0 : 2 elements
+          - key : ExifVersion
+          ▿ value : 3 elements
+            - 0 : 2
+            - 1 : 3
+            - 2 : 1
+        ▿ 1 : 2 elements
+          - key : Flash
+          - value : 16
+        ▿ 2 : 2 elements
+          - key : LensModel
+          - value : iPhone 11 back camera 4.25mm f/1.8
+        ▿ 3 : 2 elements
+          - key : OffsetTimeDigitized
+          - value : +08:00
+        ▿ 4 : 2 elements
+          - key : SubsecTimeOriginal
+          - value : 877
+        ▿ 5 : 2 elements
+          - key : LensSpecification
+          ▿ value : 4 elements
+            - 0 : 4.25
+            - 1 : 4.25
+            - 2 : 1.8
+            - 3 : 1.8
+        ▿ 6 : 2 elements
+          - key : ExposureMode
+          - value : 0
+        ▿ 7 : 2 elements
+          - key : LensMake
+          - value : Apple
+        ▿ 8 : 2 elements
+          - key : FNumber
+          - value : 1.8
+        ▿ 9 : 2 elements
+          - key : OffsetTimeOriginal
+          - value : +08:00
+        ▿ 10 : 2 elements
+          - key : PixelYDimension
+          - value : 1080
+        ▿ 11 : 2 elements
+          - key : ApertureValue
+          - value : 1.69599381283836
+        ▿ 12 : 2 elements
+          - key : ExposureBiasValue
+          - value : 0
+        ▿ 13 : 2 elements
+          - key : MeteringMode
+          - value : 5
+        ▿ 14 : 2 elements
+          - key : ISOSpeedRatings
+          ▿ value : 1 element
+            - 0 : 2000
+        ▿ 15 : 2 elements
+          - key : ShutterSpeedValue
+          - value : 5.322736227158481
+        ▿ 16 : 2 elements
+          - key : SceneCaptureType
+          - value : 0
+        ▿ 17 : 2 elements
+          - key : FocalLength
+          - value : 4.25
+        ▿ 18 : 2 elements
+          - key : DateTimeOriginal
+          - value : 2021:01:03 11:30:55
+        ▿ 19 : 2 elements
+          - key : SceneType
+          - value : 1
+        ▿ 20 : 2 elements
+          - key : FlashPixVersion
+          ▿ value : 2 elements
+            - 0 : 1
+            - 1 : 0
+        ▿ 21 : 2 elements
+          - key : ColorSpace
+          - value : 65535
+        ▿ 22 : 2 elements
+          - key : SubjectArea
+          ▿ value : 4 elements
+            - 0 : 960
+            - 1 : 538
+            - 2 : 1056
+            - 3 : 355
+        ▿ 23 : 2 elements
+          - key : PixelXDimension
+          - value : 1920
+        ▿ 24 : 2 elements
+          - key : FocalLenIn35mmFilm
+          - value : 60
+        ▿ 25 : 2 elements
+          - key : SubsecTimeDigitized
+          - value : 877
+        ▿ 26 : 2 elements
+          - key : OffsetTime
+          - value : +08:00
+        ▿ 27 : 2 elements
+          - key : SensingMethod
+          - value : 2
+        ▿ 28 : 2 elements
+          - key : BrightnessValue
+          - value : -2.581076020471851
+        ▿ 29 : 2 elements
+          - key : DateTimeDigitized
+          - value : 2021:01:03 11:30:55
+        ▿ 30 : 2 elements
+          - key : ComponentsConfiguration
+          ▿ value : 4 elements
+            - 0 : 1
+            - 1 : 2
+            - 2 : 3
+            - 3 : 0
+        ▿ 31 : 2 elements
+          - key : WhiteBalance
+          - value : 0
+        ▿ 32 : 2 elements
+          - key : ExposureTime
+          - value : 0.025
+        ▿ 33 : 2 elements
+          - key : ExposureProgram
+          - value : 2
+    ▿ 7 : 2 elements
+      ▿ key : AnyHashable("ColorModel")
+        - value : "ColorModel"
+      - value : RGB
+    ▿ 8 : 2 elements
+      ▿ key : AnyHashable("PixelWidth")
+        - value : "PixelWidth"
+      - value : 1920
+    ▿ 9 : 2 elements
+      ▿ key : AnyHashable("ProfileName")
+        - value : "ProfileName"
+      - value : Display P3
+    ▿ 10 : 2 elements
+      ▿ key : AnyHashable("Depth")
+        - value : "Depth"
+      - value : 8
+
+(lldb) 
