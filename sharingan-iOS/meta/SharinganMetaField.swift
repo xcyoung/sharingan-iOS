@@ -6,12 +6,30 @@ import Foundation
 
 class SharinganMetaClassField: NSObject {
     let className: String
-    let infos: [SharinganMetaInfoField]
+    let detail: String
+    let infos: [SharinganMetaClassField]
 
-    init(className: String, infos: [SharinganMetaInfoField]) {
+    init(className: String, detail: String, infos: [SharinganMetaClassField]) {
         self.className = className
+        self.detail = detail
         self.infos = infos
         super.init()
+    }
+
+    var detailDescription: String {
+        if infos.isEmpty {
+            return detail
+        } else {
+            var str = ""
+            for i in 0..<infos.count {
+                if i != 0 {
+                    str += ",\(infos[i].detailDescription)"
+                } else {
+                    str += "\(infos[i].detailDescription)"
+                }
+            }
+            return str
+        }
     }
 }
 
